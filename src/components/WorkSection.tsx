@@ -1,16 +1,16 @@
 import { ExternalLink } from "lucide-react";
 
 const brands = [
-  { name: "Mahalaxmi Masala", url: "https://www.instagram.com/mahalaxmi_spices", category: "FMCG" },
-  { name: "G6 Superhomes", url: "https://www.instagram.com/g6_superhomes", category: "Real Estate" },
-  { name: "G-malkin", url: "https://www.instagram.com/gmalkin_chakki_fresh_atta", category: "FMCG" },
-  { name: "Jbees", url: "https://www.instagram.com/jbees_rajkot", category: "Food" },
-  { name: "Venture Solar", url: "https://www.instagram.com/_venture_solar_solution_", category: "Energy" },
-  { name: "The Max Momentum", url: "https://www.instagram.com/themaxmomentum", category: "Fitness" },
-  { name: "Kesar Dhani Resort", url: "https://www.instagram.com/kesardhaniresort", category: "Hospitality" },
-  { name: "DRS Financial", url: "https://www.instagram.com/drs_financialservices", category: "Finance" },
-  { name: "Bonton Holidays", url: "https://www.instagram.com/bonton_holidays", category: "Travel" },
-  { name: "ISK Auto Industries", url: "https://www.instagram.com/isk_auto_industries", category: "Auto" },
+  { name: "Mahalaxmi Masala", url: "https://www.instagram.com/mahalaxmi_spices", category: "FMCG", icon: "🌶️" },
+  { name: "G6 Superhomes", url: "https://www.instagram.com/g6_superhomes", category: "Real Estate", icon: "🏠" },
+  { name: "G-malkin", url: "https://www.instagram.com/gmalkin_chakki_fresh_atta", category: "FMCG", icon: "🌾" },
+  { name: "Jbees", url: "https://www.instagram.com/jbees_rajkot", category: "Food", icon: "🍔" },
+  { name: "Venture Solar", url: "https://www.instagram.com/_venture_solar_solution_", category: "Energy", icon: "☀️" },
+  { name: "The Max Momentum", url: "https://www.instagram.com/themaxmomentum", category: "Fitness", icon: "💪" },
+  { name: "Kesar Dhani Resort", url: "https://www.instagram.com/kesardhaniresort", category: "Hospitality", icon: "🏨" },
+  { name: "DRS Financial", url: "https://www.instagram.com/drs_financialservices", category: "Finance", icon: "💰" },
+  { name: "Bonton Holidays", url: "https://www.instagram.com/bonton_holidays", category: "Travel", icon: "✈️" },
+  { name: "ISK Auto Industries", url: "https://www.instagram.com/isk_auto_industries", category: "Auto", icon: "🚗" },
 ];
 
 const WorkSection = () => {
@@ -51,6 +51,11 @@ const WorkSection = () => {
                 style={{ animationDelay: "0.5s", "--rotate": "4deg" } as React.CSSProperties}
               >
                 Strategy
+              </span>
+
+              {/* Center icon */}
+              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl opacity-20 group-hover:opacity-40 transition-opacity select-none pointer-events-none">
+                {brand.icon}
               </span>
 
               <div>
