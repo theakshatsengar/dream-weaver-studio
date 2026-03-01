@@ -33,9 +33,12 @@ const WorkSection = () => {
               rel="noopener noreferrer"
               className="group relative aspect-square p-4 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-primary/5 transition-all flex flex-col justify-end overflow-hidden"
             >
+              {/* Link icon top-right */}
+              <ExternalLink className="absolute top-3 right-3 w-3.5 h-3.5 text-muted-foreground/50 group-hover:text-primary transition-colors" />
+
               {/* Floating bubble tags */}
               <span
-                className="absolute top-3 right-3 inline-block px-2 py-0.5 rounded-full text-[9px] font-medium bg-tag-pink/15 text-tag-pink animate-float"
+                className="absolute top-3 left-3 inline-block px-2 py-0.5 rounded-full text-[9px] font-medium bg-tag-pink/15 text-tag-pink animate-float"
                 style={{ animationDelay: "0s", "--rotate": "3deg" } as React.CSSProperties}
               >
                 {brand.category}
@@ -54,14 +57,13 @@ const WorkSection = () => {
               </span>
 
               {/* Center icon */}
-              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl opacity-20 group-hover:opacity-40 transition-opacity select-none pointer-events-none">
+              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl opacity-40 group-hover:opacity-60 transition-opacity select-none pointer-events-none">
                 {brand.icon}
               </span>
 
               <div>
-                <h3 className="font-heading text-sm font-semibold group-hover:text-primary transition-colors flex items-center gap-1.5">
+                <h3 className="font-heading text-sm font-semibold group-hover:text-primary transition-colors">
                   {brand.name}
-                  <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </h3>
               </div>
             </a>
