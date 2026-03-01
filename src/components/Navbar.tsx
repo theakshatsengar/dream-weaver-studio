@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
       <div className="container flex items-center justify-between py-4">
         <a href="#" className="font-heading text-lg font-bold tracking-tight">
-          ✍️ Copywriter
+          Megha Ambasana
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
@@ -24,7 +24,7 @@ const Navbar = () => {
           ))}
         </div>
         <a
-          href="#contact"
+          href="mailto:hello@example.com"
           className="md:hidden text-sm font-medium text-primary hover:text-primary/80 transition-colors"
         >
           Hire Me

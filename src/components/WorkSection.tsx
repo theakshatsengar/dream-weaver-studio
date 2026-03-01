@@ -1,17 +1,25 @@
 import { ExternalLink } from "lucide-react";
 
 const brands = [
-  { name: "Mahalaxmi Masala", url: "https://www.instagram.com/mahalaxmi_spices", category: "FMCG" },
-  { name: "G6 Superhomes", url: "https://www.instagram.com/g6_superhomes", category: "Real Estate" },
-  { name: "G-malkin", url: "https://www.instagram.com/gmalkin_chakki_fresh_atta", category: "FMCG" },
-  { name: "Jbees", url: "https://www.instagram.com/jbees_rajkot", category: "Food" },
-  { name: "Venture Solar", url: "https://www.instagram.com/_venture_solar_solution_", category: "Energy" },
-  { name: "The Max Momentum", url: "https://www.instagram.com/themaxmomentum", category: "Fitness" },
-  { name: "Kesar Dhani Resort", url: "https://www.instagram.com/kesardhaniresort", category: "Hospitality" },
-  { name: "DRS Financial", url: "https://www.instagram.com/drs_financialservices", category: "Finance" },
-  { name: "Bonton Holidays", url: "https://www.instagram.com/bonton_holidays", category: "Travel" },
-  { name: "ISK Auto Industries", url: "https://www.instagram.com/isk_auto_industries", category: "Auto" },
+  { name: "Mahalaxmi Masala", url: "https://www.instagram.com/mahalaxmi_spices", category: "FMCG", tags: ["Social Media", "Ad Copy"] },
+  { name: "G6 Superhomes", url: "https://www.instagram.com/g6_superhomes", category: "Real Estate", tags: ["Content Strategy", "Scripts"] },
+  { name: "G-malkin", url: "https://www.instagram.com/gmalkin_chakki_fresh_atta", category: "FMCG", tags: ["Social Media", "SEO"] },
+  { name: "Jbees", url: "https://www.instagram.com/jbees_rajkot", category: "Food", tags: ["Ad Copy", "Scripts"] },
+  { name: "Venture Solar", url: "https://www.instagram.com/_venture_solar_solution_", category: "Energy", tags: ["Content Strategy", "SEO"] },
+  { name: "The Max Momentum", url: "https://www.instagram.com/themaxmomentum", category: "Fitness", tags: ["Social Media", "Scripts"] },
+  { name: "Kesar Dhani Resort", url: "https://www.instagram.com/kesardhaniresort", category: "Hospitality", tags: ["Ad Copy", "Content Strategy"] },
+  { name: "DRS Financial", url: "https://www.instagram.com/drs_financialservices", category: "Finance", tags: ["SEO", "Social Media"] },
+  { name: "Bonton Holidays", url: "https://www.instagram.com/bonton_holidays", category: "Travel", tags: ["Scripts", "Ad Copy"] },
+  { name: "ISK Auto Industries", url: "https://www.instagram.com/isk_auto_industries", category: "Auto", tags: ["Content Strategy", "Social Media"] },
 ];
+
+const tagColors: Record<string, string> = {
+  "Social Media": "bg-tag-yellow/15 text-tag-yellow",
+  "Ad Copy": "bg-tag-pink/15 text-tag-pink",
+  "Content Strategy": "bg-tag-orange/15 text-tag-orange",
+  "Scripts": "bg-tag-green/15 text-tag-green",
+  "SEO": "bg-tag-blue/15 text-tag-blue",
+};
 
 const WorkSection = () => {
   return (
@@ -31,15 +39,27 @@ const WorkSection = () => {
               href={brand.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group p-4 rounded-lg border border-border bg-card hover:border-primary/40 hover:bg-primary/5 transition-all"
+              className="group aspect-square p-5 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-primary/5 transition-all flex flex-col justify-between"
             >
-              <span className="text-[10px] uppercase tracking-widest text-muted-foreground">
-                {brand.category}
-              </span>
-              <h3 className="font-heading text-sm font-semibold mt-1 group-hover:text-primary transition-colors flex items-center gap-1.5">
-                {brand.name}
-                <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </h3>
+              <div>
+                <span className="text-[10px] uppercase tracking-widest text-muted-foreground">
+                  {brand.category}
+                </span>
+                <h3 className="font-heading text-sm font-semibold mt-1 group-hover:text-primary transition-colors flex items-center gap-1.5">
+                  {brand.name}
+                  <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </h3>
+              </div>
+              <div className="flex flex-wrap gap-1.5 mt-auto">
+                {brand.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className={`inline-block px-2.5 py-1 rounded-full text-[10px] font-medium ${tagColors[tag] || "bg-muted text-muted-foreground"}`}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </a>
           ))}
         </div>
