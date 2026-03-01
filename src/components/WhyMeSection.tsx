@@ -70,26 +70,31 @@ const WhyMeSection = () => {
               key={r.title}
               className="group relative aspect-square p-4 rounded-xl border border-border bg-background hover:border-primary/40 hover:bg-primary/5 transition-all flex flex-col justify-end overflow-hidden"
             >
-              <div className="absolute top-3 right-3 flex flex-wrap justify-end gap-1.5 max-w-[70%]">
-                {r.tags.map((tag) => (
-                  <span
-                    key={tag.label}
-                    className={`inline-block px-2 py-0.5 rounded-full text-[9px] font-medium ${tag.color} animate-float`}
-                    style={{ animationDelay: tag.delay, "--rotate": tag.rotate } as React.CSSProperties}
-                  >
-                    {tag.label}
-                  </span>
-                ))}
-                {r.extraTags.map((tag) => (
-                  <span
-                    key={tag.label}
-                    className={`hidden md:inline-block px-2 py-0.5 rounded-full text-[9px] font-medium ${tag.color} animate-float`}
-                    style={{ animationDelay: tag.delay, "--rotate": tag.rotate } as React.CSSProperties}
-                  >
-                    {tag.label}
-                  </span>
-                ))}
-              </div>
+              {r.tags.map((tag, i) => (
+                <span
+                  key={tag.label}
+                  className={`absolute inline-block px-2 py-0.5 rounded-full text-[9px] font-medium ${tag.color} animate-float ${
+                    i === 0 ? "top-3 right-3" :
+                    i === 1 ? "top-[35%] left-3" :
+                    "top-[20%] right-[25%]"
+                  }`}
+                  style={{ animationDelay: tag.delay, "--rotate": tag.rotate } as React.CSSProperties}
+                >
+                  {tag.label}
+                </span>
+              ))}
+              {r.extraTags.map((tag, i) => (
+                <span
+                  key={tag.label}
+                  className={`absolute hidden md:inline-block px-2 py-0.5 rounded-full text-[9px] font-medium ${tag.color} animate-float ${
+                    i === 0 ? "top-[50%] right-4" :
+                    "top-[15%] left-[30%]"
+                  }`}
+                  style={{ animationDelay: tag.delay, "--rotate": tag.rotate } as React.CSSProperties}
+                >
+                  {tag.label}
+                </span>
+              ))}
 
               <div>
                 <span className="text-2xl mb-2 block">{r.emoji}</span>
