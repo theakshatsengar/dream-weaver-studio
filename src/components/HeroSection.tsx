@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[50vh] md:min-h-[60vh] flex flex-col justify-center overflow-hidden pb-0">
       <div className="container py-10 md:py-12">
-        <span className="inline-block px-3 py-1 mb-4 rounded-full bg-tag-blue/20 text-tag-blue text-xs font-medium tracking-wider">Hiring? Mai Hu Na👋</span>
+        <span className="inline-block px-3 py-1 mb-4 rounded-full bg-tag-blue text-black text-xs font-medium tracking-wider">Hiring? Mai Hu Na👋</span>
         <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-12 md:mb-16">
           Just a not-so-normal girl in her 20s who accidentally fell in love with words. 
           Creating content since 17, professionally writing for 2+ years across 20+ categories.
