@@ -57,7 +57,7 @@ const WorkSection = () => {
               </span>
 
               {/* Center icon */}
-              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl opacity-40 group-hover:opacity-60 transition-opacity select-none pointer-events-none">
+              <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl opacity-20 group-hover:opacity-40 transition-opacity select-none pointer-events-none">
                 {brand.icon}
               </span>
 
