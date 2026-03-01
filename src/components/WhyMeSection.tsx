@@ -5,8 +5,6 @@ const reasons = [
     desc: "I'll stalk— I mean research your target audience until I know them better than they know themselves.",
     tags: [
       { label: "Deep Dive", color: "bg-tag-pink text-black", rotate: "3deg", delay: "0s" },
-      { label: "Insights", color: "bg-tag-blue text-black", rotate: "-2deg", delay: "1s" },
-      { label: "Data", color: "bg-tag-green text-black", rotate: "4deg", delay: "0.5s" },
     ],
     extraTags: [
       { label: "Analysis", color: "bg-tag-yellow text-black", rotate: "-3deg", delay: "0.3s" },
@@ -18,8 +16,6 @@ const reasons = [
     title: "Overthinks (Strategically)",
     desc: "Love connecting the dots — social media trends ko brand ke sath connect kar lungi, without diluting brand voice.",
     tags: [
-      { label: "Trends", color: "bg-tag-green text-black", rotate: "-3deg", delay: "0.2s" },
-      { label: "Brand Voice", color: "bg-tag-orange text-black", rotate: "4deg", delay: "0.8s" },
       { label: "Strategy", color: "bg-tag-yellow text-black", rotate: "-2deg", delay: "1.2s" },
     ],
     extraTags: [
@@ -32,8 +28,6 @@ const reasons = [
     title: "Chronically Online",
     desc: "Internet culture, meme timing, and platform behavior — I get it quickly.",
     tags: [
-      { label: "Memes", color: "bg-tag-yellow text-black", rotate: "2deg", delay: "0.3s" },
-      { label: "Culture", color: "bg-tag-pink text-black", rotate: "-4deg", delay: "0.9s" },
       { label: "Viral", color: "bg-tag-blue text-black", rotate: "3deg", delay: "0.6s" },
     ],
     extraTags: [
@@ -47,8 +41,6 @@ const reasons = [
     desc: "Concept cool bhi hoga and brand ke business goal ko serve bhi karega.",
     tags: [
       { label: "Creative", color: "bg-tag-orange text-black", rotate: "-3deg", delay: "0.1s" },
-      { label: "Goals", color: "bg-tag-green text-black", rotate: "4deg", delay: "0.7s" },
-      { label: "Impact", color: "bg-tag-pink text-black", rotate: "-2deg", delay: "1.1s" },
     ],
     extraTags: [
       { label: "Results", color: "bg-tag-blue text-black", rotate: "3deg", delay: "0.5s" },
