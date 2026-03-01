@@ -11,14 +11,13 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[70vh] md:min-h-[80vh] flex flex-col justify-center overflow-hidden pb-0">
       <div className="container py-16 md:py-24">
-        <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-3">hey hey</p>
         <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-12 md:mb-16">
           Just a not-so-normal girl in her 20s who accidentally fell in love with words. 
           Creating content since 17, professionally writing for 2+ years across 20+ categories.
         </p>
 
         <div className="relative">
-          <h1 className="text-hero text-[clamp(6rem,25vw,20rem)] text-foreground select-none">
+          <h1 className="text-hero text-[clamp(6rem,25vw,12rem)] text-foreground select-none">
             COPY
             <br className="md:hidden" />
             WRITER
