@@ -1,8 +1,8 @@
 import { ExternalLink } from "lucide-react";
 
 const socials = [
-  { label: "LinkedIn", href: "https://linkedin.com", icon: "in" },
-  { label: "Twitter", href: "https://twitter.com", icon: "𝕏" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/megha-ambasana-a281a1201/", icon: "in" },
+  { label: "Twitter", href: "https://x.com/meghaambasana", icon: "𝕏" },
   { label: "Mail", href: "mailto:meghaambasana@gmail.com", icon: "✉" },
 ];
 
