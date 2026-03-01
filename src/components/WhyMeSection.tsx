@@ -74,9 +74,9 @@ const WhyMeSection = () => {
                 <span
                   key={tag.label}
                   className={`absolute inline-block px-2 py-0.5 rounded-full text-[9px] font-medium ${tag.color} animate-float ${
-                    i === 0 ? "top-3 right-3" :
-                    i === 1 ? "top-[35%] left-3" :
-                    "top-[20%] right-[25%]"
+                    i === 0 ? "top-2 right-2 md:top-[10%] md:right-[15%]" :
+                    i === 1 ? "top-3 right-[40%] md:top-[30%] md:left-[10%]" :
+                    "top-8 right-3 md:top-[50%] md:right-[30%]"
                   }`}
                   style={{ animationDelay: tag.delay, "--rotate": tag.rotate } as React.CSSProperties}
                 >
@@ -87,8 +87,8 @@ const WhyMeSection = () => {
                 <span
                   key={tag.label}
                   className={`absolute hidden md:inline-block px-2 py-0.5 rounded-full text-[9px] font-medium ${tag.color} animate-float ${
-                    i === 0 ? "top-[50%] right-4" :
-                    "top-[15%] left-[30%]"
+                    i === 0 ? "top-[20%] right-[45%]" :
+                    "top-[45%] left-[35%]"
                   }`}
                   style={{ animationDelay: tag.delay, "--rotate": tag.rotate } as React.CSSProperties}
                 >
