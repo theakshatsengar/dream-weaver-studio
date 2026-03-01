@@ -17,7 +17,7 @@ const HeroSection = () => {
         </p>
 
         <div className="relative">
-          <h1 className="text-hero text-[clamp(4rem,15vw,12rem)] text-foreground select-none">
+          <h1 className="text-hero text-[clamp(5rem,20vw,16rem)] text-foreground select-none">
             COPY
             <br className="md:hidden" />
             WRITER
