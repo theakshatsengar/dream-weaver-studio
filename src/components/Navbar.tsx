@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2 md:hidden">
           <ThemeToggle />
           <a
-            href="mailto:meghaambasana@gmail.com"
+            href="mailto:ambasanamegha@gmail.com"
             className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
           >
             Hire Me

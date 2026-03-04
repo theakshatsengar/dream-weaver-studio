@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react";
 const socials = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/megha-ambasana-a281a1201/", icon: "in" },
   { label: "Twitter", href: "https://x.com/meghaambasana", icon: "𝕏" },
-  { label: "Mail", href: "mailto:meghaambasana@gmail.com", icon: "✉" },
+  { label: "Mail", href: "mailto:ambasanamegha@gmail.com", icon: "✉" },
 ];
 
 const ContactSection = () => {
@@ -24,7 +24,7 @@ const ContactSection = () => {
             </p>
             <div className="flex items-center gap-3 flex-wrap">
               <a
-                href="mailto:meghaambasana@gmail.com"
+                href="mailto:ambasanamegha@gmail.com"
                 className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-primary text-primary-foreground font-heading font-semibold text-base hover:opacity-90 transition-opacity"
               >
                 CONTACT ME
