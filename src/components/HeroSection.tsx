@@ -13,10 +13,9 @@ const HeroSection = () => {
       <div className="container py-16 md:py-20">
         <span className="inline-block px-3 py-1 mb-4 rounded-full bg-tag-blue text-black text-xs font-medium tracking-wider">Hiring? Mai Hu Na👋</span>
         <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-12 md:mb-16">
-          Just a not-so-normal girl in her 20s who accidentally fell in love with words and built a career out of it. 
-        </p>
-        <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-2 md:mb-4">
-          Creating content since 17, professionally writing for 2+ years across 20+ categories.
+          Just a not-so-normal girl in her 20s who accidentally fell in love with words and built a career out of it.
+          <br />
+          Creating content since 17, professionally writing for 2+ years across 20+ categories. 
         </p>
 
         <div className="relative">
