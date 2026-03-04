@@ -21,7 +21,7 @@ const WorkSection = () => {
           Brands I've worked with
         </h2>
         <p className="text-muted-foreground mb-12 max-w-xl">
-          End-to-end concept development and content creation across different categories — from brief to final creatives.
+          Handled end-to-end concept development and content creation, covering strategy, ideation, execution, and final delivery.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
