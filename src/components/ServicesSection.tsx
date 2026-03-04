@@ -1,6 +1,6 @@
 const services = [
   "Social media copy and content strategy",
-  "Ad copies (Meta and Google)",
+  "Ad Copy",
   "Short form scripts for Youtube and Instagram",
   "Client coordination and communication",
   "SEO writing (intermediate level)",
@@ -30,10 +30,9 @@ const ServicesSection = () => {
           <div className="space-y-5 text-muted-foreground text-base md:text-lg leading-relaxed">
             <p>
               If it involves thinking, researching and writing, then I am in.
-              I've worked across 20+ categories including FMCG, hospitality, cafés, schools, service brands, and more.
             </p>
             <p>
-              I read comments of people fighting on insta and reddit, which helps me quickly spot audience pain points, triggers, and the language they actually use.
+              For over two years, I’ve written across 20+ categories, learning how audiences think, what captures attention, and what drives likes, saves, and shares (ngl, my slightly concerning 13 hours screen time plays a role in this too).
             </p>
             <p>
               Chronically online so internet culture, meme timing, and platform behavior? I get it.
