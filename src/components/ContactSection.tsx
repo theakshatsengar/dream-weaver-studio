@@ -15,12 +15,11 @@ const ContactSection = () => {
           <div className="order-2 md:order-1">
             <div className="mb-6">
               <h2 className="font-heading text-3xl md:text-4xl font-bold uppercase">
-                LET'S WORK TOGETHER ✨
+                Let’s Collaborate
               </h2>
             </div>
             <p className="text-muted-foreground text-sm md:text-base mb-8 leading-relaxed">
-              If my work made you pause for a second and think, "Hmm, बुरा तो नहीं है," then we're already halfway there.
-              I'm looking to bring my chaos and creativity to a team that wants to grow, experiment, and actually get noticed.
+              Let’s create content that aligns with your brand vision and drives meaningful results.
             </p>
             <div className="flex items-center gap-3 flex-wrap">
               <a

@@ -1,9 +1,11 @@
 import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
+  { label: "Work", href: "#work" },
   { label: "Services", href: "#services" },
   { label: "About", href: "#about" },
-  { label: "Work", href: "#work" },
+  { label: "Blog", href: "/blog" },
+  { label: "Case Study", href: "/case-study" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -20,8 +22,10 @@ const Navbar = () => {
               key={link.label}
               href={link.href}
               onClick={(e) => {
-                e.preventDefault();
-                document.querySelector(link.href)?.scrollIntoView({ behavior: "smooth" });
+                if (link.href.startsWith("#")) {
+                  e.preventDefault();
+                  document.querySelector(link.href)?.scrollIntoView({ behavior: "smooth" });
+                }
               }}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors uppercase tracking-wider"
             >

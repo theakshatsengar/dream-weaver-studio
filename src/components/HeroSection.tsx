@@ -11,13 +11,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[50vh] md:min-h-[60vh] flex flex-col justify-center overflow-hidden pb-0">
       <div className="container py-16 md:py-20">
-        <span className="inline-block px-3 py-1 mb-4 rounded-full bg-tag-blue text-black text-xs font-medium tracking-wider">Hiring? Mai Hu Na👋</span>
-        <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-12 md:mb-16">
-          Just a not-so-normal girl in her 20s who accidentally fell in love with words and built a career out of it.
-          Professionally writing for 2+ years across 20+ categories. 
-        </p>
-
-        <div className="relative">
+        <div className="relative mb-10">
           <h1 className="text-hero text-[clamp(6rem,25vw,12rem)] md:text-[clamp(12rem,12vw,14rem)] text-foreground select-none">
             COPY
             <br className="md:hidden" />
@@ -34,6 +28,10 @@ const HeroSection = () => {
             </span>
           ))}
         </div>
+
+        <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-none text-center mt-4">
+          Just a 20-something who started writing for fun at 17 and accidentally built a career out of it.
+        </p>
 
         {/* Mobile tags */}
         <div className="flex flex-wrap gap-2 mt-8 sm:hidden">

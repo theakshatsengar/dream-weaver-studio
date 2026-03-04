@@ -54,7 +54,7 @@ const WhyMeSection = () => {
     <section id="about" className="py-20 md:py-28 bg-card">
       <div className="container">
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-12">
-          Why hire me? 🤔
+          So, Why Work With Me?
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {reasons.map((r) => (

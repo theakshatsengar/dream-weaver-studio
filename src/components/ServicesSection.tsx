@@ -29,13 +29,7 @@ const ServicesSection = () => {
           </div>
           <div className="space-y-5 text-muted-foreground text-base md:text-lg leading-relaxed">
             <p>
-              If it involves thinking, researching and writing, then I am in.
-            </p>
-            <p>
               For over two years, I’ve written across 20+ categories, learning how audiences think, what captures attention, and what drives likes, saves, and shares (ngl, my slightly concerning 13 hours screen time plays a role in this too).
-            </p>
-            <p>
-              Chronically online so internet culture, meme timing, and platform behavior? I get it.
             </p>
           </div>
         </div>
