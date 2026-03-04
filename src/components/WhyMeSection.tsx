@@ -1,8 +1,8 @@
 const reasons = [
   {
     emoji: "🔍",
-    title: "Research Obsessed",
-    desc: "I'll stalk— I mean research your target audience until I know them better than they know themselves.",
+    title: "Professional Observer",
+    desc: "I’ll stalk, I mean research, your target audience until I understand how they think, what they respond to, and why they engage.",
     tags: [
       { label: "Deep Dive", color: "bg-tag-pink text-black", rotate: "3deg", delay: "0s" },
     ],
@@ -13,8 +13,8 @@ const reasons = [
   },
   {
     emoji: "🧠",
-    title: "Overthinks (Strategically)",
-    desc: "Love connecting the dots — social media trends ko brand ke sath connect kar lungi, without diluting brand voice.",
+    title: "Strategic Overthinker",
+    desc: "I love connecting the dots, turning social media trends into brand-relevant ideas without diluting the brand voice.",
     tags: [
       { label: "Strategy", color: "bg-tag-yellow text-black", rotate: "-2deg", delay: "1.2s" },
     ],
@@ -26,7 +26,7 @@ const reasons = [
   {
     emoji: "📱",
     title: "Chronically Online",
-    desc: "Internet culture, meme timing, and platform behavior — I get it quickly.",
+    desc: "Internet culture, meme timing, and platform behavior come naturally to me. I understand what works, when it works, and why it works.",
     tags: [
       { label: "Viral", color: "bg-tag-blue text-black", rotate: "3deg", delay: "0.6s" },
     ],
@@ -37,8 +37,8 @@ const reasons = [
   },
   {
     emoji: "⚡",
-    title: "Creativity + Logic",
-    desc: "Concept cool bhi hoga and brand ke business goal ko serve bhi karega.",
+    title: "Curious by Default",
+    desc: "I’m constantly asking, “Why is this working?” and “Why is this failing?” and naturally analyzing patterns behind content performance.",
     tags: [
       { label: "Creative", color: "bg-tag-orange text-black", rotate: "-3deg", delay: "0.1s" },
     ],
