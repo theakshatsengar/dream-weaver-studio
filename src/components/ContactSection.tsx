@@ -47,7 +47,7 @@ const ContactSection = () => {
 
           {/* Right — Photo */}
           <div className="flex flex-col items-center md:items-end order-1 md:order-2 w-full md:w-auto">
-            <div className="w-full aspect-square max-w-sm md:w-80 md:h-80 rounded-2xl border border-border overflow-hidden">
+            <div className="w-full aspect-square max-w-xs md:w-80 md:h-80 rounded-2xl border border-border overflow-hidden">
               <img src="/image.png" alt="Megha Ambasana" className="w-full h-full object-cover" />
             </div>
           </div>
