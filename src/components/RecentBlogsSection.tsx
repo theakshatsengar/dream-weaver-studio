@@ -12,7 +12,7 @@ const posts = [
 
 const RecentBlogsSection = () => {
   return (
-    <section id="blog" className="py-20 md:py-28">
+    <section id="blog" className="py-20 md:py-28 bg-card">
       <div className="container">
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
           Recent Blogs

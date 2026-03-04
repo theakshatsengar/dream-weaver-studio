@@ -8,7 +8,7 @@ const socials = [
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 md:py-28 bg-card">
+    <section id="contact" className="py-20 md:py-28">
       <div className="container">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           {/* Left — Text + Socials */}
