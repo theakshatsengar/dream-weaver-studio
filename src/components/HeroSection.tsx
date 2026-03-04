@@ -15,7 +15,7 @@ const HeroSection = () => {
         <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-12 md:mb-16">
           Just a not-so-normal girl in her 20s who accidentally fell in love with words and built a career out of it. 
         </p>
-        <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-12 md:mb-16">
+        <p className="max-w-lg text-base md:text-lg text-muted-foreground leading-relaxed mb-2 md:mb-4">
           Creating content since 17, professionally writing for 2+ years across 20+ categories.
         </p>
 
